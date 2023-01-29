@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/33465b60d1.js" crossorigin="anonymous"></script>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav>
+        <!--Location Dropdown-->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><i style="margin-right:15px; ;" class="fa-solid fa-angle-down"></i>Türkiye</button>
+            <div id="myDropdown" class="dropdown-content">
+              <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+              <p>Europe</p>
+              <a href="#about"><i style="margin-right:8px; ;" class="fa-solid fa-bag-shopping"></i>Belgique (EUR€)</a>
+              <a href="#base"><i style="margin-right:8px; ;" class="fa-solid fa-bag-shopping"></i>Belgie (EUR€)</a>
+              <a href="#blog"><i style="margin-right:8px; ;" class="fa-solid fa-bag-shopping"></i>Deutschland (EUR€)</a>
+              <a href="#contact"><i style="margin-right:8px; ;" class="fa-solid fa-bag-shopping"></i>Danmark (EUR€)</a>
+              <a href="#custom"> <i style="margin-right:8px; ;" class="fa-solid fa-bag-shopping"></i>Espana (EUR€)</a>
+              <a href="#support"><i style="margin-right:8px; ;" class="fa-solid fa-bag-shopping"></i>France (EUR€)</a>
+              <a href="#tools"><i style="margin-right:8px; ;" class="fa-solid fa-bag-shopping"></i>İtalia (EUR€)</a>
+            </div>
+          </div>
+
+          <!--Boutiques-->
+          <div class="boutiques">
+            
+            <a href="#"><i class="fa-regular fa-location-dot"></i></i>Boutiques</a>
+          </div>
+
+          <!--Languange-->
+          <div class="language">
+            <a href="#">English</a>
+          </div>
+    </nav>
+
+    <div class="main-title">
+        <div class="main-title-image">
+          <a href="../index.html">
+            <img src="../image/Logo_DIOR_COUTURE_Noir_300x300.png.avif" alt="logo">
+          </a>
+            
+        </div>
+        <div class="title-icons">
+          <a href="#" class="search-icon">
+            <i class="fa-regular fa-magnifying-glass"></i>
+          </a>
+          <a href="../create-profile/create-profile.html"><i class="fa-solid fa-user"></i></a>
+          <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+          <div class="search-container">
+            <input type="text" placeholder="Arama...">
+          </div>
+        </div>
+    </div>
+
+    
+
+    <div class="categories">
+
+       <div class="dro">
+        <div class="w-dropdown">
+            <div class="dropdown">
+                <button class="dropbtn">KADIN PARFÜM</button>
+                <div class="content">                          
+                        <a href="#">J'adore</a>
+                        <a href="#">Miss Dior</a>
+                        <a href="#">JOY By Dior</a>                                                               
+                </div>
+              </div>
+            </div>
+
+
+              <div class="w-dropdown">
+                <div class="dropdown">
+                    <button class="dropbtn">ERKEK PARFÜM</button>
+                    <div class="content">
+                      <a href="#">Savauge</a>
+                      <a href="#">Dior Homme</a>
+                      <a href="#">Fahrenheit</a>
+                    </div>
+                  </div>
+                </div>
+
+
+                  <div class="w-dropdown">
+                    <div class="dropdown">
+                        <button class="dropbtn">LA COLLECTION PRIVÉE CHRISTIAN DIOR</button>
+                        <div class="content">
+                          <a href="#">Parfüm</a>
+                          <a href="#">Mum</a>
+                          <a href="#">Mum Aksesuarları</a>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                      <div class="w-dropdown">
+                        <div class="dropdown">
+                            <button class="dropbtn">MAKYAJ</button>
+                            <div class="content">
+                              <a href="#">Yüz</a>
+                              <a href="#">Dior Backstage</a>
+                              <a href="#">Dudak</a>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+                          <div class="w-dropdown">
+                            <div class="dropdown">
+                                <button class="dropbtn">CİLT BAKIMI</button>
+                                <div class="content">
+                                  <a href="#">Dior Prestige</a>
+                                  <a href="#">Capture Totale</a>
+                                  <a href="#">Capture DreamSkin</a>
+                                </div>
+                              </div>
+                            </div>
+
+
+
+                              <div class="w-dropdown">
+                                <div class="dropdown">
+                                    <button class="dropbtn">HEDİYELER</button>
+                                    <div class="content">
+                                      <a href="#">Hediye Sanatı</a>
+                                      <a href="#">Best Sellers</a>
+                                      
+                                    </div>
+                                  </div>
+                              </div>
+
+                            </div>
+
+
+            
+                              <div class="lines">
+                                <div class="line1"></div>
+                                <div class="line2"></div>
+                                <div class="line3"></div>
+                              </div>
+         </div>
+
+         <div class="register-main">
+
+            <div class="reg">
+
+            <h2>GİRİŞ BİLGİLERİNİZ</h2>
+
+            <div class="e-mail1">
+                <label for="email">E-posta</label>
+                <input type="email" id="email" name="email">
+              </div>
+
+              <div class="password1">
+                <label for="pwd">Parola</label>
+                <input type="password" id="pwd" name="pwd">
+              </div>
+
+              <h2>KİŞİSEL BİLGİLER</h2>
+
+              <div class="info">
+                <div class="name">
+                    <label for="name">AD*</label>
+                    <input id="name" type="text">
+                  </div>
+    
+                  <div class="surname">
+                    <label for="surname">SOYADI*</label>
+                    <input id="surname" type="text">
+                  </div>
+              </div>
+              
+
+              <div class="adress">
+                <label for="adress">ADRES BİLGİLERİ 1 *</label>
+                <input id="adress" type="text">
+              </div>
+                
+              <div class="adress2">
+                <label for="adress">ADRES BİLGİLERİ 2 </label>
+                <input id="adress2" type="text">
+              </div>
+                
+              <div class="city">
+                <label for="city">ŞEHİR *</label>
+                <input id="city" type="text">
+              </div>
+                
+              <div class="number">
+                <label for="number">TELEFON NUMARASI *</label>
+                <input id="number" type="text" placeholder="(+)90123456789">
+              </div>
+                
+              <div class="birth">
+                <label for="birth">DOĞUM TARİHİ</label>
+                <input id="birth" type="text" placeholder="MM/DD/YYYY">
+              </div>
+
+              <div class="check">
+                <div class="a">
+                    <input id="a1" type="checkbox" name="üyelik">
+                    <label for="kitap"><a href="#">Üyelik Sözleşmesi’ni </a>okudum ve anladım.</label>
+                    
+                </div>
+
+                
+                <div class="b">
+                    <input id="b1" type="checkbox" name="aydınlatma">
+                    <label for="kitap">
+                        KVKK kapsamında
+                        <a href="#">Aydınlatma Metni’ni </a>
+                        okudum ve anladım.
+                    </label>
+                
+                </div>
+                
+                <div class="c">
+                    <input id="c1" type="checkbox" name="rıza">
+                    <label for="kitap">
+                        KVKK kapsamında
+                        <a href="#">açık rıza beyanı</a>
+                        verdiğimi onaylıyorum.
+                    </label>
+                
+                </div>
+
+                <div class="d">
+                    <input id="d1" type="checkbox" name="kampanya">
+                    <label for="kitap">
+                        Kampanyalar ve yeniliklerden haberdar olmak istiyorum.
+                    </label>
+                
+                </div>
+            </div>
+
+            <p>
+                Bu belgeyi doldurup onaylayarak,6563 sayılı Kanun uyarıncareklam, duyuru, promosyon, hatırlatma, e-bülten ve benzeri faaliyetlerden haberdar edilmeyive bu kapsamda Arcon Kozmetik Sanayi ve Ticaret Limited Şirketi (Arcon) tarafından tarafımaticari elektronik ileti gönderilmesine (telefon, sms, mms, e-posta, sosya medya veya diğer yollarla) onay verdiğimikabul ediyorum. Verdiğim onayı iptal etmek istersem, bu durumu Arcon’un iletişim kanallarından biri aracılığıyla Arcon’a bildirebileceğime ilişkin ayrıntılı olarak bilgilendirildiğimi kabul ve beyan ederim.
+                Kişisel Verilerin Korunmasına İlişkin Arcon Aydınlatma Metni’ni(“Aydınlatma Metni”) okuduğumu, Arcon’a sunduğum kişisel bilgilerin 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) uyarınca Arcon Aydınlatma Metni’ndeaçıklandığı şekilde işlenmesine ve aktarılmasına açıkça onay verdiğimi ve kişisel verilerimle ilgili sahip olduğum haklar konusundaayrıntılı olarak bilgilendirildiğimi kabul ve beyan ederim.
+            </p>
+
+            <button onclick="olustur()">OLUŞTUR</button>
+
+            <p>
+                “Hesabımı oluştur”a tıklayarak gizlilik politikasını okuduğunuzu ve hesabınızın yönetimi için Dior tarafından kişisel verilerinizin işlenmesini ve Dior'un müşteri ilişkilerinde bulunan gizlilik politikalarında belirtilen şartları onaylamış olursunuz. Uygun kutuları işaretliyorsanız, kişisel verilerinizin doğrudan pazarlama için Dior tarafından işlenmesine de izin vermiş olursunuz; bunlar sizin ve tercihleriniz hakkında bildiğimiz kişisel verilere göre uyarlanabilir. Size dünya çapında aynı kişiselleştirilmiş hizmeti sunabilmek için kişisel verileriniz Türkiye dışındaki Christian Dior kuruluşlarına iletilebilir. 
+                Yürürlükteki yasa ve düzenlemelere göre, sizinle ilgili olabilecek tüm verilere erişme, bunları düzeltme ve silme hakkına sahipsiniz. Ayrıca, ürünlerimiz ve hizmetlerimiz hakkında size kişiselleştirilmiş iletişim göndermememizi de isteyebilirsiniz. Bu hakkı, ilgili Gizlilik politikasında belirtildiği şekilde bizimle iletişime geçerek istediğiniz zaman kullanabilirsiniz.
+            </p>
+            </div>
+
+         </div>
+
+
+         <div class="service">
+            <h1>THE E-BOUTIQUE SERVICES</h1>
+            <div class="kapsayici">
+            <div class="shipping">
+                <i class="fa-regular fa-box-open"></i>
+                <p>COMPLIMENTARY SHIPPING</p>
+                <p>Enjoy complimentary Standard shipping</p>
+            </div>
+            <div class="shipping2">
+                <i class="fa-solid fa-gift"></i>
+                <p>ART OF GIFTING</p>
+                <p>Your gift orders will be presented in an iconic Dior gift box</p>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="end">
+            <footer>
+                <div class="news">
+                    <p>NEWSLETTER</p>
+                    <div>
+                        <input id="mail" type="email" placeholder="E-posta adresi"><button id="buton" type="submit">ABONE OL</button>
+                    </div>
+                   
+                </div>
+
+                <div class="iletisim">
+                    <ul>
+                        <li><a href="#">Bizimle İletişime Geçin</a></li>
+                        <li><a href="#">Teslimat ve İade</a></li>
+                        <li><a href="#">İnternet Sitesi Politikası</a></li>
+                        <li><a href="#">Kişisel Verilerin Korunması Politikası</a></li>
+                        <li><a href="#">Kişisel Veri Bilgilendirme Belgesinin İşlenmesi</a></li>
+                        <li><a href="#">Kişisel Veriler Başvuru Formu</a></li>
+                        <li><a href="#">Çerez Politikası</a></li>
+                        
+                    </ul>
+                </div>
+
+
+                <div class="follow">
+                    <p>FOLLOW US</p>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-tumblr"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                
+            </footer>
+        </div>
+
+
+
+         <script src="../main.js"></script>
+</body>
+</html>
